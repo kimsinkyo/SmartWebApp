@@ -48,5 +48,8 @@ console.log("array6.sort() : "+ array8);
 console.log("1 == \'1\' : " + (1 == '1'));
 console.log("1 === \'1\' : " + (1 === '1'));
 
+console.log("1 == \'1\' : " + (1 !== '1'));
+console.log("1 === \'1\' : " + (1 === 1));
+
 
 
