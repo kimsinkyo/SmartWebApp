@@ -3,7 +3,7 @@ var op = prompt("연산자를 입력하세요.");
 var num2 = prompt("두번 째 숫자를 입력하세요.");
 switch(op){
     case '+':
-      result = 1*num1 + 1*num2;
+      result = parseInt(num1) + parseInt(num2);
     break;
     case '-':
     result = num1 - num2;
