@@ -179,14 +179,15 @@ while(count < 6){
         if(lotto[i] == rNumber){
             overlap = false;
         }
-        if(overlap == false){
-            lotto[count] = rNumber;
-            count++;
         }
-        overlap = true;   
-    }
+    if(overlap){
+        lotto[count] = rNumber;
+        count++;
+        }
+        overlap = true;  
     }
     return(lotto[0]+','+lotto[1]+','+lotto[2]+','+lotto[3]+','+lotto[4]+','+lotto[5]); 
 }
 console.log(getLotto());
+alert("이번 주 로또 번호는 : " + getLotto());
 
