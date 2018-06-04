@@ -35,7 +35,6 @@ for(var i in subts){
 console.log(res.join('and '));
 
 var res1 = new Array();
-
 res1.push(std2.name);
 res1.push(std2.grade);
 res1.push(std2.class);
