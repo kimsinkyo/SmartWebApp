@@ -30,3 +30,5 @@ std.sayHello2 = function(country){
     return this.sayHello() + ", 국적 : " + country;
 };
 console.log(std.sayHello2('United States'));
+
+
