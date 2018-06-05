@@ -22,3 +22,12 @@ var h3 = document.querySelectorAll('.hclass');
 h3[1].style.fontSize = '100px';
 
 document.write("Hello World!");
+//H1 태그 생성 : header
+var header = document.createElement('H1');
+//텍스트 노드 생성
+var text = document.createTextNode('생성');
+//텍스트 노드와 H1태그 연결
+header.appendChild(text);
+//H1 태그와 body태그를 연결
+document.body.appendChild(header);
+

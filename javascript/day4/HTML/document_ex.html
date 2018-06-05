@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document 실습 예제</title>
+</head>
+<body>
+    <h1 id="textcolor">header</h1>
+    <button onclick="setColorById('textcolor','blue')" class="button1 buttonBlue">폰트 파란색 변경</button>
+    <button onclick="setColorById('textcolor','yellow')" class="button1 buttonGold">폰트 노란색 변경</button>
+    <button onclick="setColorById('textcolor','red')" class="button1 buttonRed">폰트 빨간색 변경</button>
+    <button onclick="setColorById('textcolor','black')" class="button1 buttonBlack">폰트 검은색 변경</button>
+    <br>
+    <h1 class="textbasic">God</h1>
+    <h1 class="textbasic" id="textBless">Bless</h1>
+    <h1 class="textbasic">You</h1>
+    <button onclick="setColorById('textBless','blue')" class="button1 buttonBlue">가운데 폰트 파란색 변경</button>
+    <button onclick="setColorById('textBless','yellow')" class="button1 buttonGold">가운데 폰트 노란색 변경</button>
+    <button onclick="setColorById('textBless','red')" class="button1 buttonRed">가운데 폰트 빨간색 변경</button>
+    <button onclick="setColorById('textBless','blue')" class="button1 buttonBlack">가운데 폰트 검은색 변경</button>
+    <br>
+    <br>
+    <button onclick="setColorByClassName('textbasic','blue')" class="button1 buttonBlue">전체 폰트 파란색 변경</button>
+    <button onclick="setColorByClassName('textbasic','yellow')" class="button1 buttonGold">전체 폰트 노란색 변경</button>
+    <button onclick="setColorByClassName('textbasic','red')" class="button1 buttonRed">전체 폰트 빨간색 변경</button>
+    <button onclick="setColorByClassName('textbasic','black')" class="button1 buttonBlack">전체 폰트 검은색 변경</button>
+    <script src="../JS/document_ex.js" type="text/javascript"></script>
+</body>
+</html>
