@@ -17,21 +17,21 @@
         <form action="https://www.naver.com" id="formtag">
           <div class="form-group">
             <label for="id">아이디:</label>
-            <input type="id" class="form-control" id="id" placeholder="아이디를 입력하세요" name="id">
+            <input type="id" class="form-control" id="id" placeholder="아이디를 입력하세요" name="id" onchange="checkVaildID(this.value)">
           </div>
           <div class="infomation" id="info_id">
               아이디는 5~10글자이고, 아이디의 첫 글자는 영문자이어야 합니다.
             </div>
           <div class="form-group">
             <label for="pwd">비밀번호:</label>
-            <input type="password" class="form-control" id="pwd" placeholder="비밀번호를 입력하세요" name="pswd">
+            <input type="password" class="form-control" id="pwd" placeholder="비밀번호를 입력하세요" name="pswd" onchange="checkVaildPWD(this.value)">
           </div>
           <div class="infomation" id="info_pwd">
             비밀번호는 8~20글자이고, 알파벳과 숫자가 1개이상 입력되어야 합니다.
           </div>
           <div class="form-group">
             <label for="pwdcheck">비밀번호 확인</label>
-            <input type="password" class="form-control" id="pwdcheck" placeholder="비밀번호를 다시 입력하세요" name="pswdcheck">
+            <input type="password" class="form-control" id="pwdcheck" placeholder="비밀번호를 다시 입력하세요" name="pswdcheck" onchange="checkVaildPwdConfirm(this.value)">
           </div>
           <div class="infomation" id="infoPwdConfirm">
             비밀번호와 비밀번호 확인이 일치하지 않습니다.
@@ -43,9 +43,8 @@
         </div>
         <div>    
             생일
-            <input type="text" name="birth" id="birth" placeholder="년(4자)" class="form-control year form-group">
-           
-            <select name="form-control month" id="month" onchange="showValue(this)">
+            <input type="text" name="birth" id="birth" placeholder="년(4자)" class="form-control year form-group" onchange="checkVaildBirth()">
+            <select name="form-control month" id="month" onchange="checkVaildBirth()">
                 <option>월</option>
                 <option>1</option>
                 <option>2</option>
@@ -60,7 +59,7 @@
                 <option>11</option>
                 <option>12</option>
             </select>  
-            <input type="text" name="form-control day" id="day" placeholder="일">
+            <input type="text" name="form-control day" id="day" placeholder="일" onchange="checkVaildBirth()">
             </div>
             <div class="infomation" id="infoBirth">태어난 년도 4자리를 정확하세 입력하세요</div>   
         </div>
@@ -68,7 +67,7 @@
             <select id="countryCode" class="form-control countryCode" disabled>
             <option>+82</option>
         </select>
-        <input type="text" name="phone" id="phone" placeholder="휴대전화번호" class="form-control phone form-group">
+        <input type="text" name="phone" id="phone" placeholder="휴대전화번호(010으로 시작)" class="form-control phone form-group" onchange="checkVaildPhone(this.value)">
         <button class="btn btn-dark certification">인증</button>
     </div>
     <div class="infomation" id="info_cert">필수 정보입니다</div>   
