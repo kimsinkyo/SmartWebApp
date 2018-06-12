@@ -1,0 +1,14 @@
+@charset 'utf-8';
+
+.form-control{
+    width : 100px;
+    display: inline-block;
+    padding: 0;
+}
+input{
+    width: 100px;
+    height: 50px;
+    background-color: aliceblue;
+    color: black;
+    
+}

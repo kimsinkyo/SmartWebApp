@@ -9,7 +9,6 @@ formtag.onsubmit = function(){
     var day = parseInt(document.getElementById('day').value);
     var phone = document.getElementById('phone').value;
 
-
     var isOk = true;
    
     //id의 길이가 0이면
