@@ -47,7 +47,7 @@ body{
 }
 .contents{
     overflow: auto;
-    height: 300px;
+    height: auto;
 }
 .btn{
     background: none;
@@ -75,6 +75,14 @@ body{
     -webkit-animation-fill-mode: forwards;
 }
 
+footer {
+    margin-top: 70px;
+    height: 50px;
+    color: snow;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
 /*아이디 css*/
 #body{
     background: rgba(0,0,0,1);

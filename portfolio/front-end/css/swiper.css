@@ -6,7 +6,9 @@ body{
     font-family: 'Nanum Gothic', sans-serif;
     background-color: black;
 }
-
+.swiper-wrapper{
+    height: auto;
+}
 .tabMenu{
     background: black;
     color: #fff;
@@ -16,11 +18,14 @@ body{
 .tabMenu .active{
     color: goldenrod;
 }
-
+.swiper-slide{
+    height: auto;
+}
 .tabMenu .swiper-slide{
     display: inline-block;
     width: auto;
     padding: 10px 0;
+   
 }
 
 .intro_pic{
@@ -36,8 +41,8 @@ body{
     border: white 2px;
     border-style: dashed;
     background-color: black;
-    color: snow
-    
+    color: snow;
+    line-height: 2.5;
 }
 .info_title{
     font-size: 25px;
@@ -48,5 +53,13 @@ body{
 }
 .cnd_browse{
     font-size: 32px;
+    font-weight: bold;
+}
+
+footer {
+    height: 50px;
+    color: snow;
+    text-align: center;
+    font-size: 30px;
     font-weight: bold;
 }

@@ -1,5 +1,9 @@
 @charset 'utf-8';
 
+body{
+    margin: 0;
+    background-color: black;
+}
 .title{
     text-align: center;
     background-color: snow;
@@ -12,5 +16,13 @@
 }
 .cnd_browse{
     font-size: 32px;
+    font-weight: bold;
+}
+
+footer {
+    height: 50px;
+    color: snow;
+    text-align: center;
+    font-size: 30px;
     font-weight: bold;
 }

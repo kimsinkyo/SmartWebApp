@@ -20,3 +20,10 @@
 tbody{
     border-top: 3px solid black;
 }
+footer {
+    height: 50px;
+    color: snow;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
