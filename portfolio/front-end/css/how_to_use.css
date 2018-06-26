@@ -1,0 +1,22 @@
+@charset 'utf-8';
+
+.how_table{
+    width: 100%;
+    padding-top: 35px;
+    align-items: center;
+    background-color: gold;
+    font-size: 18px;
+}
+.how_table{
+    border-top: 7px;
+}
+.table td{
+    vertical-align: middle;
+    border: 2px solid black;;
+}
+.table th{
+    border: 3px solid black;
+}
+tbody{
+    border-top: 3px solid black;
+}

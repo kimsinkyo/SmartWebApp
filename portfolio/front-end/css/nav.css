@@ -1,0 +1,68 @@
+@charset 'utf-8';
+
+/*네비게이션 css*/
+.navbar{
+    font-size: 22px;
+    height: 45px;
+    text-align: center;
+    padding: 0;
+    font-weight: bold;
+    background-color: orange;
+}
+.backToMain{
+    color: black;
+}
+.backToMain:hover{
+    color: palegreen;
+}
+/*사이드 네비게이션 css*/
+  #close-sidenav {
+    cursor: pointer;
+    font-size: 30px;
+    float: right;
+    color: white;
+  }
+  #sidenav {
+    height: 100%; width: 150px;
+    top: 0; right: -150px;
+    background: white;
+    position: fixed;
+    transition: 0.4s;
+    color: white;
+    z-index: 5;
+  }
+  #sidenav ul { 
+      margin-top: 35px; 
+      padding: 0; 
+      list-style-type: none; 
+  }
+  #sidenav li{
+      border-bottom: 1px;
+      border-bottom-style: solid;
+      border-color: grey;
+      font-size: 14px;
+  }
+  #sidenav a{
+      color: black;
+      display: block;
+      text-decoration: none;
+      padding: 15px;
+  }
+  #sidenav header { 
+      background-color: rgb(31, 31, 31);
+      width: 260px;
+      height: 120px;
+  }
+  #sidenav a:hover { background: gold; }
+
+  /*햄버거 메뉴 css*/
+  #hamburger-wrapper{
+    color: black;
+    padding: 0 10px;
+    cursor: pointer;
+  }
+.cnd_browse{
+    font-size: 32px;
+    font-weight: bold;
+}
+  

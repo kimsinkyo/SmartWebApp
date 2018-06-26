@@ -10,12 +10,7 @@ body.dark { background: rgba(20, 20, 20, 0.4); }
   font-size: 35px;
   height: 10px;
 }
-#hamburger span{
-  
-}
-span:hover{
-    color: gold;
-}
+
 #close-sidenav {
   cursor: pointer;
   font-size: 40px;

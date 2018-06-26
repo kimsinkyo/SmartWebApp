@@ -1,0 +1,16 @@
+@charset 'utf-8';
+
+.title{
+    text-align: center;
+    background-color: snow;
+    font-size: 30px;
+    font-weight: bold;
+}
+.naver_map{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.cnd_browse{
+    font-size: 32px;
+    font-weight: bold;
+}
