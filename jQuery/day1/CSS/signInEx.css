@@ -1,0 +1,11 @@
+@charset 'utf-8';
+
+.form-group{
+    margin-bottom: 0;
+}
+.form-control{
+    margin-bottom: 10px;
+}
+.focused{
+    background-color: skyblue;
+}
