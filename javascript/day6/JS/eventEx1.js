@@ -8,11 +8,11 @@ function func2(){
 
 var btn = document.getElementById('btn');
 
-if(btn.addEventListener){
+if(btn.addEventListener){ //익스플로어
     btn.addEventListener('click',func1);
     btn.addEventListener('click',func2);
 }
-else if(btn.attachEvent){
+else if(btn.attachEvent){ //크롬
     btn.attachEvent('onclick',func1);
     btn.attachEvent('onclick',func2);
 }
