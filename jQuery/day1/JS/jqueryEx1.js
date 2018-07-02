@@ -54,3 +54,12 @@ $("#header :header").css({background:'#ccc', color:"blue"});
 // 언어가 en-us이면 usa 클래스를 추가해주고 en-es이면 spain클래스를 추가해준다
 $("#lang div:lang(en-us)").addClass("usa");
 $("#lang div:lang(en-es)").addClass("spain");
+
+// not() 필터 예제
+// input 태그 중 checked 상태가 아닌(선택되지 않은) 요소가 있는 span태그의 배경색을 노란색으로 지정.
+$("input:not(:checked) + span").css("background-color","yellow");
+//$("input").attr("disabled", "disabled");
+
+// root 필터 예제
+//b태그에 html 문자열($(":root")[0].nodeName))을 넣고 해당 태그를 아이디가 log인 요소에 붙인다.
+$("<b></b>").html($(":root")[0].nodeName).appendTo("#log");
