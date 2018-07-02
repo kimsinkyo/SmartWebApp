@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../CSS/jqueryEx3.css">
+    <title>j쿼리 예제2</title>
+</head>
+<body>
+  <!-- [name |= "value"] 속성 셀렉터 예제 -->
+  <div id="orAttr">
+    <input type="text" name="inputName">
+    <input type="text" name="inputName test">
+    <input type="text" name="inputName-test">
+    <input type="text" name="test inputName">
+    <input type="text" name="testinputName">
+    <input type="text" name="test inputNames" id="test1">
+  </div>
+
+  <!-- [name *= "value"] 속성 셀렉터 예제 -->
+  <div id="mulAttr">
+      <input type="text" name="inputName">
+      <input type="text" name="inputName test">
+      <input type="text" name="inputName-test">
+      <input type="text" name="test inputName">
+      <input type="text" name="testinputName">
+      <input type="text" name="test inputNam" id="test2">
+    </div>
+
+  <!-- [name ~= "value"] 속성 셀렉터 예제 -->
+  <div id="waveAttr">
+      <input type="text" name="inputName">
+      <input type="text" name="inputName test">
+      <input type="text" name="inputName-test">
+      <input type="text" name="test inputName">
+      <input type="text" name="testinputName">
+      <input type="text" name="test inputNam" id="test3">
+  </div>
+
+  <!-- [name != "value"] 속성 셀렉터 예제 -->
+  <div id="notAttr">
+      <input type="text" name="inputName">
+      <input type="text" name="inputName test">
+      <input type="text" name="inputName-test">
+      <input type="text" name="test inputName">
+      <input type="text" name="testinputName">
+      <input type="text" name="test inputNam" id="test4">
+  </div>
+
+   <!-- [name $= "value"] 속성 셀렉터 예제 -->
+   <div id="endAttr">
+      <input type="text" name="inputName">
+      <input type="text" name="inputName test">
+      <input type="text" name="inputName-test">
+      <input type="text" name="test inputName">
+      <input type="text" name="testinputName">
+      <input type="text" name="test inputNam" id="test5">
+  </div>
+
+  <!-- [name ^= "value"] 속성 셀렉터 예제 -->
+  <div id="beginAttr">
+      <input type="text" name="inputName">
+      <input type="text" name="inputName test">
+      <input type="text" name="inputName-test">
+      <input type="text" name="test inputName">
+      <input type="text" name="testinputName">
+      <input type="text" name="test inputNam" id="test6">
+  </div>
+
+   <!-- 다중 속성 셀렉터 예제 -->
+   <div id="idAttr">
+      <input type="text" name="inputName">
+      <input type="text" name="inputName test">
+      <input type="text" name="inputName-test">
+      <input type="text" name="test inputName">
+      <input type="text" name="testinputName">
+      <input type="text" name="test inputNam" id="test7">
+  </div>
+  
+  <script src="//code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="../JS/jqueryEx3.js"></script>
+</body>
+</html>
