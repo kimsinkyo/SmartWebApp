@@ -12,7 +12,7 @@
     wrapAll() : 입력한 다수의 요소를 감싸는 부모 요소 생성 
     unwrap() : 부모 요소 제거
     detach() : 요소를 삭제
-    renove() : 요소 및 관련 이벤트 삭제
+    remove() : 요소 및 관련 이벤트 삭제
     empty() : 요소의 모든 자식을 삭제
     clone() : 복사
     replaceAll() : 입력받은 요소를 교체 
