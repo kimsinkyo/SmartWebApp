@@ -1,0 +1,31 @@
+a{
+    color: black;
+}
+a:hover{
+    color: black;
+}
+.tablename{
+    color: black;
+    border-style: none;
+    background-color: skyblue;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#list_button{
+    color: black;
+    background-color: skyblue;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#write_button{
+    color: black;
+    background-color: skyblue;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
