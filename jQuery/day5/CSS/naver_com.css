@@ -1,0 +1,524 @@
+@charset "utf-8";
+/* 바디 설정 */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f4f7;
+}
+/* 헤더 및 네비게이션 바 */
+.header{
+    z-index: 100;
+    border-bottom: 1px solid #d1d8e4;
+    background: #fff;
+}
+.navbar{
+    padding: 0px;
+}
+.navbar .container
+{
+    position: relative;
+    z-index: 100;
+    height: 46px;
+    border-top: 1px solid #f1f3f6;
+    background: #fff;
+   
+}
+.container
+{
+    width: 1100px;
+    margin: 5px auto;
+}    
+.row{
+    margin-left: 5px;
+}
+.navbar  .navbar-nav .nav-item-green
+{
+    color: #00c73c;
+    font-weight: 600;
+}
+.navbar  .navbar-nav .nav-item-black
+{
+    color: #000000;
+    font-weight: 600;
+}
+
+.search-container{
+    position: relative;
+    height: 100%;
+    margin-top: 40px;
+    
+}
+.linkarea a{
+    text-decoration: none;
+}
+.linkarea a:visited{
+    color: black;
+}
+.naver_logo{
+    display: block;
+    width: 182px;
+    height: 45px; 
+    margin-bottom: 6px;
+}
+.searchBox{
+    position: absolute;
+    top: 0%;
+    left: 210px;
+    height: 49px;
+    width: 510px;
+    border: 2px solid #00c73c;
+    background-color: #fff;
+}
+.search-button{
+    top: 0;
+    right: 0;
+    overflow: visible;
+    width: 45px;
+    height: 45px;
+    border: 0;
+    background: #00c73c;
+}
+#searcher{
+    top: 50%;
+    margin-left: 9px;
+    padding-bottom: 0;
+    width: 400px;
+    height: 23px;
+    border: 0;
+    line-height: 23px;
+}
+.header-promotion{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -18px;
+}
+.realTime{
+    display: inline-block;
+    height: 20px;
+    width: 150px;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0;
+}
+#sort-down{
+    color: black;
+    float: right;
+    margin-bottom: 5px;
+}
+.realTime li{
+   
+    color: #000;
+    height: 30px;
+    padding-left: 5px;
+    margin: 0px; 
+}
+.RTnumber{
+    color: green;
+}
+.linkarea{
+    position: absolute;
+    display: inline-block;
+    height: 25px;
+    top: 5px;
+    right: 20px;
+}
+
+.move_main{
+    width: 120px;
+    height: 25px;
+    color: #888;
+    letter-spacing: -1px;
+    font-size: 11px;
+    line-height: 22px;
+}
+.junior_naver{
+    width: 70px;
+    height: 25px;
+    color: #888;
+    line-height: 22px;
+    font-size: 11px;
+
+}
+.happy_bean{
+    width: 34px;
+    height: 25px;
+    background-position: -44px -187px;
+    color: #888;
+    font-size: 11px;
+    line-height: 22px;
+}
+.input-info
+{
+    width: 148px;
+    height: 68px;
+    margin: 20px 0px 0px 15px;
+}
+/* 오른쪽 박스 */
+.ad-banner
+{
+    width: 330px;
+    height: 150px;
+    margin-top: 10px;
+    background-color: white;
+    border: none 1px #dee3eb;
+}
+.btn-login
+{
+    width: 67px;
+    height: 67px;
+    margin: 20px 0px 0px 0px;
+    background-color: #00c73c;
+    color: #f2f4f7;
+    font-size: 12px;
+    font-weight: 900;
+}
+.security
+{
+    width: 77px;
+    height: 68px;
+    margin: 20px 0px 0px 5px;
+    font-size: 11px;
+    color: #888;
+}
+.right-box{
+    width: 332px;
+    margin-left: 8px;
+}
+.login-box
+{
+    width: 330px;
+    background-color: white;
+    height: 120px;
+    border: solid 1px #dee3eb;
+}
+.notice-news{
+    margin-top: 10px;
+}
+.text-login
+{
+    margin-top: 24px;
+    text-align: center;
+}
+.id-input
+{
+    width: 148px;
+    height: 34px;
+    font-size: 12px;
+}
+.password-input
+{
+    width: 148px;
+    height: 34px;   
+    font-size: 12px; 
+    margin-top: -1px;
+}
+button
+{
+    padding: 0px;
+}
+.ip-security
+{
+    height: 33px;
+    width: 74px;
+    background-color: #fff;
+    border: solid 1px #f1f3f6;
+    border-width: 1px; 
+}
+.login-sub{
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
+    padding-left: 18px;
+    padding-top: 5px;
+}
+.login-sub a{
+    color: #000;
+    padding: 0 3px;
+}
+.temp-login
+{
+    height: 33px;
+    width: 74px;
+    background-color: #fff;
+    border: solid 1px  #f1f3f6;
+    border-width: 1px;
+    margin-top: -1px;
+}
+.date
+{
+    height: 33px;
+    border: solid 1px #f1f3f6;
+    padding: 7px 0px 9px 0px;
+}
+.stock
+{
+    height: 106px;
+}
+.date .date-1
+{
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+}
+.date .muted
+{
+    color: grey;
+    font-size: 13px;
+    font-weight: 700;
+}
+.date .bar
+{
+    padding: 0px 5px 5px 0px;
+}
+.date .date-week
+{
+    font-size: 13px;
+    font-weight: bold;
+}
+.kospy
+{
+    width: 151px;
+    height: 72px;
+    display: inline-block;
+    padding: 16px 0px 8px 9px;
+}
+.kospy:hover
+{
+    text-decoration: none;
+}
+.kosdac
+{
+    width: 150px;
+    height: 72px;
+    display: inline-block;
+    padding: 16px 0px 8px 9px;
+}
+.kosdac:hover
+{
+    text-decoration: none;
+}
+.kospy-dt
+{
+    font-size: 12px;
+    color: #888;
+}
+.kospy-dd
+{
+    font-size: 24px;
+    color: #000;
+    line-height: 31px;
+}
+.kospy-dd:hover
+{
+    text-decoration: underline;
+}
+dd
+{
+    display: inline-block;
+}
+.dd-detail
+{
+    font-size: 12px;
+    line-height: 31px;
+    color: blue;
+}
+.stock-search
+{
+    height: 30px; 
+   
+}
+.input-search
+{
+    height: 22px;
+    width: 120px;
+    border: solid 2px blue;
+    border-right:none; 
+ }
+ .search-icon
+ {
+    width: 22px;
+    height: 30px;
+    background-color: #888;
+ }
+ .stock-search .row
+ {
+    padding: 0;
+    margin: 0;  
+ }
+ .list-icon
+ {
+    padding-right: 15px;
+ }
+ .cog-icon
+ {
+    padding-right: 15px;
+ }
+
+/* 왼쪽 박스 */
+.news
+{
+    display: inline-flex;
+    font-size: 12px;
+    font-weight: 700;
+    width: 738px;
+    height: 46px;
+    background-color: white;
+    border: solid 1px #dee3eb;
+    padding: 10px 0px 0px 16px;
+    margin-top: 10px;
+}
+.news a{
+    color: #000;
+}
+.news-stand
+{
+    width: 740px;
+    height: 246px;
+    margin-top: 10px;
+    background-color: white;
+    border: solid 1px #dee3eb;
+    padding: 0px 5px 5px 0px;
+}
+.notice-news
+{
+    width: 332px;
+    height: 142px;
+    background-color: white;
+    border: solid 1px #dee3eb;
+}
+
+.news .pop-news
+{
+    font-size: 12px;
+    font-weight: 700;
+    height: 30px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.pop-news li{
+    color: #000;
+    height: 30px;
+    padding-left: 5px;
+    margin: 0px; 
+}
+.news-stand .news_table
+{
+    padding: 0;
+    width: 740px;
+    height: 192px;
+}
+td
+{
+    width: 123px;
+    height: 63px;
+}
+.is_hovered{
+    width: 123px;
+    height: 63;
+    background-color: #f2f4f7; 
+}
+.news-stand .n-stand
+{
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 16px;
+   
+}
+.news-stand .headline
+{
+   width: 738px;
+   height: 45px;
+   text-align: center;
+}
+.news .success
+{
+    color: #00c73c;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0px 2px 0px 2px;
+}
+.news .muted
+{
+    color: grey;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0px 2px 0px 2px;
+}
+.news-stand .muted
+{
+    color: grey;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0px 2px 0px 2px;
+    padding-right: 300px;
+}
+.news-stand .dark
+{
+    color: black;
+    font-size: 13px;
+    font-weight: 700;
+    margin: 0px 2px 0px 2px;
+    padding-right: 5px;
+}
+
+.fa 
+{
+    line-height: 1.5;
+}
+.fas 
+{
+    color: gainsboro;
+}
+.fas:hover
+{
+    color: #000;
+}
+.bar
+{
+    display: block;
+    margin: 2px 0px;
+    width: 1px;
+    height: 15px;
+    background-color: #ebeef3;
+}
+.headline span{
+    padding-top: 10px;
+}
+.headline a{
+    padding-top: 10px;
+    padding-left: 6.5px;
+    padding-right: 6px;
+}
+.headline .left-angle
+{
+    border: 1px solid gainsboro; 
+    color: #888;
+    width: 46px;
+    height: 46px;
+  
+}
+.headline .right-angle
+{
+    border: 1px solid gainsboro; 
+    color: #888;
+    width: 46px;
+    height: 46px;
+}
+.headline .left-angle:hover
+{
+    color: #00c73c;
+}
+.headline .right-angle:hover
+{
+    color: #00c73c;
+}
