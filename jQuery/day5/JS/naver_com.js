@@ -18,7 +18,8 @@ setInterval(function(){list()},4000);
 
 // 실시간 검색어 팝업
 $(document).ready(function(){
-$("#RTWord").hover(function(){
+  
+  $("#RTWord").hover(function(){
   $(".search-hover").toggleClass('display-block');
 });
   $("#auto-icon").click(function(){
@@ -28,15 +29,27 @@ $("#RTWord").hover(function(){
   });
   $("#sort-icon").click(function(){  
     $(".sort-sub-menu").toggleClass('display-none');
-    $(".sort-yn").toggleClass('display-none')
+    $(".sort-yn").toggleClass('display-none',)
     $(".sort-up").toggleClass('display-none');
     $(".sort-down").toggleClass('display-none');
+    $(".nav-menu").toggleClass('display-none');
+    $(".container-fluid").toggleClass('background-black');
   });
   $("#sort-icon2").click(function(){  
     $(".sort-sub-menu").toggleClass('display-none');
     $(".sort-yn").toggleClass('display-none')
     $(".sort-up").toggleClass('display-none');
     $(".sort-down").toggleClass('display-none');
+    $(".nav-menu").toggleClass('display-none');
+    $(".container-fluid").toggleClass('background-black');
+  });
+  $(".nav-close").click(function(){  
+    $(".sort-sub-menu").toggleClass('display-none');
+    $(".sort-yn").toggleClass('display-none')
+    $(".sort-up").toggleClass('display-none');
+    $(".sort-down").toggleClass('display-none');
+    $(".nav-menu").toggleClass('display-none');
+    $(".container-fluid").toggleClass('background-black');
   });
 });
 
@@ -65,3 +78,27 @@ function RTlist(){
 }
 setInterval(function(){RTlist()},4000);
 
+var index = 0;
+
+$("#next").click(function(){
+    index = (index+1)%6;
+
+    $("#etcContents div").eq(index).removeClass('display-none');
+    $("#etcContents div").eq(index).addClass('display-block');
+
+    $("#etcContents div").not($("#etcContents div").eq(index)).removeClass('display-block');
+    $("#etcContents div").not($("#etcContents div").eq(index)).addClass('display-none');
+});
+
+$("#prev").click(function(){
+  
+  index = (index-1)%6;
+  if(index == -1){
+    index = 4;
+  }
+  $("#etcContents div").eq(index).removeClass('display-none');
+  $("#etcContents div").eq(index).addClass('display-block');
+
+  $("#etcContents div").not($("#etcContents div").eq(index)).removeClass('display-block');
+  $("#etcContents div").not($("#etcContents div").eq(index)).addClass('display-none');
+});

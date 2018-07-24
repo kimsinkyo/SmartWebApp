@@ -14,7 +14,7 @@
 </head>
 <body ondragstart="return false" onselectstart="return false">
   <div class="header">
-  <div class="container search-container ">
+  <div class="container search-container">
        <span><h1><a href="#"><img src="" class="naver_logo"></a></h1></span>
        <span class="searchBox">
       <input type="text" name="search" id="searcher">
@@ -117,6 +117,9 @@
         <li><span class="RTnumber">9</span> 숀 </li>
         <li><span class="RTnumber">10</span> 제헌절 </li>
         </ul>
+        <div class="nav-menu display-none">
+          <a href="#" class="service-view">서비스 전체보기</a><a href="#" class="menu-setting">메뉴설정</a><span class="nav-close"><i class="fas fa-times"></i></span>
+        </div>
         <div class="search-hover">
             실시간 급상승 검색어
           <ul>
@@ -137,8 +140,9 @@
       </div>  
     </div>
       </nav>
-      <div class="sort-sub-menu display-none container">
-          <div class="table1">
+      <div class="container"> 
+      <div class="sort-sub-menu display-none ">
+          <div>
             <ul style="padding: 10px 0 0 0;"> ㄱ-ㄷ
               <li>가계부</li>
               <li>그라폴리오</li>
@@ -146,7 +150,7 @@
               <li>뉴스</li>
             </ul>
           </div>
-          <div class="table2">
+          <div>
               <ul style="padding: 10px 0 0 0;"> ㄹ-ㅅ
                 <li>라인</li>
                 <li>만화</li>
@@ -154,7 +158,7 @@
                 <li>스포츠</li>
               </ul>
             </div>
-            <div class="table3">
+            <div>
                 <ul style="padding: 10px 0 0 0;"> ㅇ-ㅈ
                   <li>영화</li>
                   <li>자동차</li>
@@ -163,8 +167,9 @@
                 </ul>
               </div>
         </div>    
-    </div>
-    <div class="container-fluid" style="background-color: #f1f3f6">
+      </div>
+      </div>
+    <div class="container-fluid">
       <div class="container">
         <div class="row">    
         <div class="left-box">
@@ -296,25 +301,46 @@
                 <div class="date">    
                         <a class="date-1" href="#">07.17.</a>
                         <label class="date-week" for="date">(화)</label>
-                    
                     <a class="muted" href="#">증시</a>
+                    <div class="page-changer">
+                    <a class="page-changer-left" id="prev" href="#"><i class="fa fa-chevron-left"></i></a>
+                    <a class="page-changer-right" id="next" href="#" ><i class="fa fa-chevron-right"></i></a>
+                  </div>
                 </div>
-                <div class="stock">
-                    <a href="" class="kospy">
-                        <dt class="kospy-dt">코스피</dt>
-                        <dd class="kospy-dd">2475.00</dd>
-                        <dd class="dd-detail"><i class="fas fa-sort-down fas-arrow" style="color: blue"></i>2.71</dd>
-                    </a>
-                    <a href="" class="kosdac">
-                        <dt class="kospy-dt">코스닥</dt>
-                        <dd class="kospy-dd">2475.00</dd>
-                        <dd class="dd-detail"><i class="fas fa-sort-down" style="color: blue"></i>2.71</dd>
-                    </a>
-                    <div class="stock-search row">
-                             <div><input type="text" name="" id="" class="input-search"></div>
-                            <div><a href="" class="search-icon"><i class="fas fa-search" style="color: blue"></i></a></div>
-                        </div>
+              
+                <div id="etcContents">
+                <div>
+                      1
                 </div>
+                  <div class="display-none">
+                      2
+                  </div>
+                  <div class="display-none">
+                      3
+                  </div>
+                  <div class="display-none">
+                      4
+                  </div>
+                  <div class="display-none">
+                      5
+                  </div>
+                  <div class="stock display-none">
+                      <a href="" class="kospy">
+                          <dt class="kospy-dt">코스피</dt>
+                          <dd class="kospy-dd">2475.00</dd>
+                          <dd class="dd-detail"><i class="fas fa-sort-down fas-arrow" style="color: blue"></i>2.71</dd>
+                      </a>
+                      <a href="" class="kosdac">
+                          <dt class="kospy-dt">코스닥</dt>
+                          <dd class="kospy-dd">2475.00</dd>
+                          <dd class="dd-detail"><i class="fas fa-sort-down" style="color: blue"></i>2.71</dd>
+                      </a>
+                      <div class="stock-search row">
+                               <div><input type="text" name="" id="" class="input-search"></div>
+                              <div><a href="" class="search-icon"><i class="fas fa-search" style="color: blue"></i></a></div>
+                          </div>
+                  </div>
+              </div>  
             </div>
             <div class="ad-banner">
                 <img src="http://www.marc-bolan.net/trex-banner.jpg" alt="" width="332px" height="150px">
