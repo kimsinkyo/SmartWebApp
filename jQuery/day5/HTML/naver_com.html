@@ -14,21 +14,33 @@
 </head>
 <body>
   <div class="header">
-  <div class="container search-container">
-       <span><a href="http://naver.com"><img src="http://aym.co.kr/wp-content/uploads/2017/11/NAVER__Green.png" class="naver_logo"></a></span>
+  <div class="container search-container ">
+       <span><a href="http://naver.com"><img src="http://newsroom.etomato.com/userfiles/NAVER(5).png" class="naver_logo"></a></span>
        <span class="searchBox">
       <input type="text" name="search" id="searcher">
-      <i class="far fa-keyboard"></i><i class="fas fa-sort-down" style="color: green; padding: 0px 5px 0px 10px;"></i>
+      <i class="far fa-keyboard"></i><div id="auto-icon"><i class="fas fa-sort-down" style="color: green; padding: 0px 5px 0px 10px;"></i></div>
       <button class="search-button"><i class="fas fa-search" style="color: #fff"></i></button>
     </span>
+    <div class="sub-menu">
+      <div class="auto-make">
+        현재 자동완성 기능을 사용하고 계십니다.
+      </div>
+      <div class="sub-menu2">
+        <div>
+          <span class="f1"><a href="#">도움말</a> | <a href="#">신고</a></span><a href="" class="f2">자동완성 끄기</a>
+        </div>
+      </div>
+    </div>
     <div class="header-promotion">
       <a href="#"><img src="https://s.pstatic.net/static/www/mobile/edit/2018/0716/mobile_14380768340.png" alt="" width="235" height="45"></a>
     </div>
   </div>
     <div class="linkarea">
-      <span><a href="#" class="move_main">네이버를 시작페이지로></a></span><span>
-      <a href="#" class="junior_naver">쥬니어네이버</a></span><span>
-      <a href="#" class="happy_bean">해피빈</a></span>
+      <span><a href="#" class="move_main">네이버를 시작페이지로> |</a></span> <span>
+      <a href="#" class="junior_naver">
+        <span id="blue_ju">쥬</span><span id="orange_ni">니</span><span id="red_uh">어</span><span id="naver_green">네이버</span>
+      </a></span>
+      <span><a href="#" class="happy_bean"><span id="happy">해피</span><span id="bean">빈</span></a></span>
     </div>   
     <nav class="navbar navbar-expand-sm bg-white navbar-white"> 
         <div class="container">
@@ -99,15 +111,31 @@
         <li><span class="RTnumber">9</span> 숀 </li>
         <li><span class="RTnumber">10</span> 제헌절 </li>
         </ul>
+        <div class="search-hover">
+            실시간 급상승 검색어
+          <ul>
+            <li><span class="#">1</span> 아시아나 </li>
+            <li><span class="#">2</span> 김병준 </li>
+            <li><span class="#">3</span> 페페론치노 </li>
+            <li><span class="#">4</span> 맥앤치즈 </li>
+            <li><span class="#">5</span> 김상조 </li>
+            <li><span class="#">6</span> 편의점 </li>
+            <li><span class="#">7</span> CSS </li>
+            <li><span class="#">8</span> 워마드 </li>
+            <li><span class="#">9</span> 숀 </li>
+            <li><span class="#">10</span> 제헌절 </li>
+            </ul>
+        </div>
         <i class="fas fa-sort-down" id="sort-down"></i>
         </div>
       </nav>
-    </div> 
+    </div>
+    <div class="container-fluid" style="background-color: #f1f3f6">
       <div class="container">
         <div class="row">    
         <div class="left-box">
             <div>
-                <img src="https://static.shareasale.com/image/38286/hc-banner.jpg" alt="" width="738px" height="120px">
+                <img src="http://www.wwe.com/f/styles/talent_champion_xl/public/all/2017/09/20170906_NXT_feed--2f3203f6b04b6931d2446c9d11a08b7b.jpg" alt="" width="738px" height="120px">
             </div>
         </div>
             <div class="right-box login-box">
@@ -259,6 +287,7 @@
             </div>
         </div> 
     </div>
+  </div>
     </div>
     <script src="//code.jquery.com/jquery-3.3.1.js"></script>
     <script src="../JS/naver_com.js"></script>
