@@ -18,6 +18,9 @@
 .navbar{
     padding: 0px;
 }
+.container{
+    position: relative;
+}
 .navbar .container
 {
     position: relative;
@@ -100,6 +103,9 @@
 }
 #auto-icon{
     display: inline;
+}
+.display-none{
+    display: none;
 }
 .sub-menu{
     position: absolute;
@@ -233,6 +239,30 @@
     width: 148px;
     height: 68px;
     margin: 20px 0px 0px 15px;
+}
+.sort-sub-menu{
+    position: absolute;
+    text-align: left;
+    top: 170px;
+    right: 0;
+    left: 0px;
+    background: #fff;
+    font-size: 12px;
+    z-index: 99;
+}
+.sort-sub-menu ul{
+    font-weight: bold;
+}
+.sort-sub-menu li{
+    font-weight: 300;
+    list-style: none;
+}
+.sort-sub-menu div{
+    float: left;
+    padding-left: 16px;
+    width: 137px;
+    height: 292px;
+    border-right: 1px solid #f1f3f6;
 }
 .red{
     color: red;

@@ -23,6 +23,20 @@ $("#RTWord").hover(function(){
 });
   $("#auto-icon").click(function(){
     $(".sub-menu").toggleClass('display-block');
+    $(".up").toggleClass('display-none');
+    $(".down").toggleClass('display-none');
+  });
+  $("#sort-icon").click(function(){  
+    $(".sort-sub-menu").toggleClass('display-none');
+    $(".sort-yn").toggleClass('display-none')
+    $(".sort-up").toggleClass('display-none');
+    $(".sort-down").toggleClass('display-none');
+  });
+  $("#sort-icon2").click(function(){  
+    $(".sort-sub-menu").toggleClass('display-none');
+    $(".sort-yn").toggleClass('display-none')
+    $(".sort-up").toggleClass('display-none');
+    $(".sort-down").toggleClass('display-none');
   });
 });
 

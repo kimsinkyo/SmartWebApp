@@ -12,13 +12,14 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
     <link rel="stylesheet" href="../CSS/naver_com.css">
 </head>
-<body>
+<body ondragstart="return false" onselectstart="return false">
   <div class="header">
   <div class="container search-container ">
        <span><h1><a href="#"><img src="" class="naver_logo"></a></h1></span>
        <span class="searchBox">
       <input type="text" name="search" id="searcher">
-      <i class="far fa-keyboard"></i><div id="auto-icon"><i class="fas fa-sort-down" style="color: green; padding: 0px 5px 0px 10px;"></i></div>
+      <i class="far fa-keyboard"></i><div id="auto-icon"><i class="fas fa-sort-down down" style="color: green; padding: 0px 5px 0px 10px;"></i>
+      <i class="fas fa-sort-up up display-none"  style="color: green;padding: 0px 5px 0px 5.5px;"></i></div>
       <button class="search-button"><i class="fas fa-search" style="color: #fff"></i></button>
     </span>
     <div class="sub-menu">
@@ -91,12 +92,17 @@
             <a class="nav-link nav-item-black" href="#">책</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link  nav-item-black" href="#">웹툰</a>
+            <a class="nav-link  nav-item-black" href="#">웹툰 |</a>
           </li>            
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle nav-item-black" href="#" id="navbardrop" data-toggle="dropdown">
-            더보기
-            </a>
+          <li class="nav-item nav-item-black dropdown">
+              <a class="nav-link nav-item-black sort-yn" id="sort-icon" href="#">더 보기
+                  <i class="fas fa-sort-down sort-down"></i>
+                  <i class="fas fa-sort-up sort-up display-none"></i>
+                </a>
+                <a class="nav-link nav-item-green sort-yn display-none" id="sort-icon2" href="#">접기
+                    <i class="fas fa-sort-down sort-down"></i>
+                    <i class="fas fa-sort-up sort-up display-none"></i>
+                  </a>
           </li>
         </ul>
         <ul class="realTime" id="RTWord">
@@ -126,9 +132,37 @@
             <li><span class="#">10</span> 제헌절 </li>
             </ul>
         </div>
-        <i class="fas fa-sort-down" id="sort-down"></i>
-        </div>
+        <div>
+        <i class="fas fa-sort-down"></i>
+      </div>  
+    </div>
       </nav>
+      <div class="sort-sub-menu display-none container">
+          <div class="table1">
+            <ul style="padding: 10px 0 0 0;"> ㄱ-ㄷ
+              <li>가계부</li>
+              <li>그라폴리오</li>
+              <li>낚시</li>
+              <li>뉴스</li>
+            </ul>
+          </div>
+          <div class="table2">
+              <ul style="padding: 10px 0 0 0;"> ㄹ-ㅅ
+                <li>라인</li>
+                <li>만화</li>
+                <li>뮤직</li>
+                <li>스포츠</li>
+              </ul>
+            </div>
+            <div class="table3">
+                <ul style="padding: 10px 0 0 0;"> ㅇ-ㅈ
+                  <li>영화</li>
+                  <li>자동차</li>
+                  <li>주소록</li>
+                  <li>지도</li>
+                </ul>
+              </div>
+        </div>    
     </div>
     <div class="container-fluid" style="background-color: #f1f3f6">
       <div class="container">
