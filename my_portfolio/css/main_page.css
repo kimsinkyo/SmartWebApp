@@ -1,0 +1,18 @@
+@charset 'utf-8';
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+body{
+  background-image: url(/public/img/main_background.png);
+  background-color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 750px;
+}
+.logo_image{
+  margin: 12.5% 35%; 
+  display: block;
+}
