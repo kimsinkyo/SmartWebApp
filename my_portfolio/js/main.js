@@ -1,42 +1,33 @@
 $(document).ready(function(){
   var sfx = document.getElementById('click_sfx');
-  
-  $('.cube_face').click(function(){
-    var id =  $(this).getElementById('');
+  $('#home_cube').click(function(){
     sfx.play();
-    switch(id){
-      case home_cube:
       setTimeout(function(){
-      window.location.href="home.html"},1000);
-      break;
-
-      case anthem_cube:
+      window.location.href="home.html"},1200);    
+  });
+  $('#anthem_cube').click(function(){
+    sfx.play();
       setTimeout(function(){
-      window.location.href="#"},1000);
-      break;
-          
-      case faction_cube:
+      window.location.href="#"},1200);    
+  });
+  $('#faction_cube').click(function(){
+    sfx.play();
       setTimeout(function(){
-      window.location.href="#"},1000);
-      break;
-           
-      case javelin_cube:
+      window.location.href="#"},1200);    
+  });
+  $('#javelin_cube').click(function(){
+    sfx.play();
       setTimeout(function(){
-      window.location.href="#"},1000);
-      break;
-             
-      case info_cube:
+      window.location.href="#"},1200);    
+  });
+  $('#info_cube').click(function(){
+    sfx.play();
       setTimeout(function(){
-      window.location.href="#"},1000);
-      break;
-             
-      case trailer_cube:
+      window.location.href="#"},1200);    
+  });
+  $('#trailer_cube').click(function(){
+    sfx.play();
       setTimeout(function(){
-      window.location.href="#"},1000);
-      break;
-
-      default:
-      alert("에러발생");
-    }
+      window.location.href="#"},1200);    
   });
 });    

@@ -92,7 +92,7 @@ p:nth-child(1) a {
 
 @-moz-keyframes neon {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #daa520, 0 0 70px #daa520, 0 0 80px #daa520, 0 0 100px #daa520, 0 0 150px #daa520;
+    text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(240, 240, 240), 0 0 30px rgb(220, 220, 220), 0 0 40px red, 0 0 70px rgb(230, 0, 0), 0 0 80px rgb(210, 0, 0), 0 0 100px rgb(120, 0, 0), 0 0 150px rgb(0, 0, 0);
   }
   to {
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #daa520, 0 0 35px #daa520, 0 0 40px #daa520, 0 0 50px #daa520, 0 0 75px #daa520;
@@ -101,7 +101,7 @@ p:nth-child(1) a {
 
 @keyframes neon {
   from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px red, 0 0 70px rgb(250, 0, 0), 0 0 80px rgb(240, 0, 0), 0 0 100px rgb(230, 0, 0), 0 0 150px rgb(220, 0, 0);
+    text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(240, 240, 240), 0 0 30px rgb(220, 220, 220), 0 0 40px red, 0 0 70px rgb(230, 0, 0), 0 0 80px rgb(210, 0, 0), 0 0 100px rgb(120, 0, 0), 0 0 150px rgb(0, 0, 0);
   }
   to {
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #daa520, 0 0 35px #daa520, 0 0 40px #daa520, 0 0 50px #daa520, 0 0 75px #daa520;
