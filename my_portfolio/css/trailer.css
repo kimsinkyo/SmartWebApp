@@ -1,61 +1,67 @@
 @charset 'utf-8';
-*{
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
 
-body {
-  background-image: url(/public/img/colorful.jpg);
+body{
+  display: block;
+  background-image: url(/public/img/anthem-hero-2018.jpg);
   width: 100%;
   height: 100%;
+  z-index: 1;
+}
+
+.odd{
+  background-color:rgba(0, 0, 0, 0.7);
+  position: relative;
+  display: inline-block;
+  width: calc(100% - 250px); 
+  height: 80vh;
+  left: 250px;
+  z-index: 2;
+  text-align: center;
+}
+.odd iframe{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.even{
+  background-color: rgba(150, 130, 200, 0.7);
+  position: relative;
+  display: inline-block;
+  width: calc(100% - 250px); 
+  left: 250px;
+  height: 80vh;
+  z-index: 2;
+  text-align: center;
+}
+.even iframe{
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.cube_container {
+  position: fixed;
+  top: 0px;
+  left: 0;  
+  width: 250px;
+  height: 100%;
+  display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Permanent Marker;
-}
-
-#container {
-  position: absolute;
-  display: block;
-  width: calc(100% - 250px); 
-  height: 78vh;
-  left: 250px;
-  background-image: url(/public/img/Anthem.jpg)
-}
-#anthem_detail{
-  position: absolute;
-  display: block;
-  width: calc(100% - 250px); 
-  height: 36vh;
-  top: 595px;
-  left: 250px;
-  background-color: rgba(255, 255, 255, 0.75);
-}
-#anthem_pre{
-  display: block;
-  margin: 25px 10vh 0 10vh ;   
-  width: 150vh;
-  height: 10vh;
-  font-size: 25px;
-  align-items: center;
-  text-align: center;
-  font-weight: 500;
-}
-
-.cube_container {
-  position: fixed;  
-  width: 250px;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    background: rgba(255,255,255,0.9); 
-    border-radius: 5px;
-    transition: all ease 0.5s;
-    font-family: 'Permanent Marker', sans-serif;
-    font-size: 20px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background: rgba(255,255,255,0.9); 
+  border-radius: 5px;
+  transition: all ease 0.5s;
+  font-family: 'Permanent Marker', sans-serif;
+  font-size: 20px;
+  scroll-behavior: smooth;
+  z-index: 10;
   }
   
   .cube_container:hover {
@@ -75,7 +81,7 @@ body {
   
   #home_cube, #faction_cube, #info_cube {
     background: black;
-    padding: 5px 5px;
+    padding: 0px 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,7 +99,7 @@ body {
   
   #anthem_cube, #javelin_cube, #trailer_cube {
     background: red;
-    padding: 5px 5px;
+    padding: 0px 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,6 +112,22 @@ body {
     background: white;
     color: black;
     cursor: pointer;
+  }
+
+  .tr_desc{
+    width: 39vw;
+    height: 16vh;
+    position: relative;
+    display: block;
+    margin: auto;
+    top: 80%;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: East Sea Dokdo;
+    z-index: 5;
+    word-spacing: 3px;
+    background-color: black;
   }
   
   

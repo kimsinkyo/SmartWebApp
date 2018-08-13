@@ -4,8 +4,8 @@ body {
   /* background-color: #000;
   background: repeating-linear-gradient(90deg, #3e0694 0%, #3e0694 20%, #111111 0%, #111111 55%) 0 / 15px 15px; */
   background-image: url(/public/img/anthem-hero-2018.jpg); 
-  width: 1920px;
-  height: 1080px;
+  width: 100%;
+  height: 100%;
   z-index: 10;
   margin: 0;
   position: relative;
@@ -13,8 +13,8 @@ body {
 
 #container {
   position: relative;
-  width: 1920px;
-  height: 1080px;
+  width: 100vw;
+  height: 100vh;
   z-index: 1;
  background: rgba(0, 0, 0, 0.8);
 }
@@ -22,7 +22,7 @@ body {
   position: absolute;
   display: inline-block;
   top: 50px;
-  left:250px;
+  margin: 0 15vw;
 }
 .intro_logo span{
   margin: 0 15px;
@@ -32,7 +32,7 @@ body {
   position: absolute;
   display: block;
   top: 260px;
-  left: 550px;
+  margin: 0 37vw;
   width: 350px;
   height: 100px;
   background-color: rgba(255,255,255,0.9);
@@ -112,9 +112,9 @@ p:nth-child(1) a {
   /*   border: 3px solid black; */
   position: absolute;
   top: 500px;  
-  left: 580px;  
+  margin: 0 43vw; 
   height: 100px;
-  width: 300px;
+  width: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
