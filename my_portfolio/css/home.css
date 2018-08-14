@@ -1,8 +1,6 @@
 @charset 'utf-8';
 
 body {
-  /* background-color: #000;
-  background: repeating-linear-gradient(90deg, #3e0694 0%, #3e0694 20%, #111111 0%, #111111 55%) 0 / 15px 15px; */
   background-image: url(/public/img/anthem-hero-2018.jpg); 
   width: 100%;
   height: 100%;
@@ -18,12 +16,14 @@ body {
   z-index: 1;
  background: rgba(0, 0, 0, 0.8);
 }
+
 .intro_logo{
   position: absolute;
   display: inline-block;
   top: 50px;
   margin: 0 15vw;
 }
+
 .intro_logo span{
   margin: 0 15px;
 }
@@ -40,12 +40,14 @@ body {
   border-radius: 2.5em;
   border: 5px solid black;
 }
+
 .enter_homepage:hover{
   box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.70);
   background: rgba(233, 233, 233, 0.70);
   color: #fff;
   background-color: rgba(20,20,5,0.9);
 }
+
 .welcome_text{
   padding-top: 20px; 
   font-size: 50px;
@@ -79,7 +81,7 @@ p:nth-child(1) a {
   animation: neon 1.5s ease-in-out infinite alternate;
 }
 
-/*glow for webkit*/
+/*네온사인 색*/
 
 @-webkit-keyframes neon {
   from {
@@ -109,7 +111,6 @@ p:nth-child(1) a {
 }
 
 .section--container{
-  /*   border: 3px solid black; */
   position: absolute;
   top: 500px;  
   margin: 0 43vw; 
@@ -121,12 +122,10 @@ p:nth-child(1) a {
   }
   
   .container{
-  /*   border: 2px solid black;  */
    display: grid;
     grid-template-columns: 100px 100px;
     grid-template-rows: 120px 100px 100px;
     grid-gap: 3px;
-    
   }
   
   .main-title{
