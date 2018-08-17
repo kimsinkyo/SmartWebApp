@@ -121,7 +121,7 @@ p:nth-child(1) a {
   align-items: center;
   }
   
-  .container{
+  .sns_container{
    display: grid;
     grid-template-columns: 100px 100px;
     grid-template-rows: 120px 100px 100px;

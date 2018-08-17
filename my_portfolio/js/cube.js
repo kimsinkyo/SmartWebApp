@@ -25,7 +25,7 @@ $(document).ready(function(){
     sfx.play();
       // 1.2초후에 팩션소개 페이지로 이동  
       setTimeout(function(){
-      window.location.href="#"},1200);    
+      window.location.href="faction.html"},1200);    
   });
   $('#javelin_cube').click(function(){
      // 변수에 저장된 오디오 파일을 재생한다
@@ -39,7 +39,7 @@ $(document).ready(function(){
     sfx.play();
       // 1.2초후에 게임 정보 페이지로 이동  
       setTimeout(function(){
-      window.location.href="#"},1200);    
+      window.location.href="info.html"},1200);    
   });
   $('#trailer_cube').click(function(){
      // 변수에 저장된 오디오 파일을 재생한다
@@ -49,10 +49,3 @@ $(document).ready(function(){
       window.location.href="trailer.html"},1200);    
   });
 });    
-
-function openInNewTab(url) {
-  var a = document.createElement("a");
-  a.target = "_blank";
-  a.href = url;
-  a.click();
-}
