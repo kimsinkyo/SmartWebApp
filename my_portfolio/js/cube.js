@@ -20,12 +20,12 @@ $(document).ready(function(){
   });
   
    // 사이드메뉴 FACTION 버튼을 눌렀을 때
-  $('#faction_cube').click(function(){
+  $('#friends_cube').click(function(){
      // 변수에 저장된 오디오 파일을 재생한다
     sfx.play();
       // 1.2초후에 팩션소개 페이지로 이동  
       setTimeout(function(){
-      window.location.href="faction.html"},1200);    
+      window.location.href="friends_code.html"},1200);    
   });
   $('#javelin_cube').click(function(){
      // 변수에 저장된 오디오 파일을 재생한다
